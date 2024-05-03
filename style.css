@@ -1,31 +1,33 @@
 body{
     background-color: #bdbdbd;
-    margin: 0;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
 }
 header{
     background: white;
-    padding: 10px;
+    padding: 5px;
+
 }
 header h1{
-    margin: 0;
+    margin: 0%;
 }
 div.post{
     background: white;
     margin-top: 10px;
+    
 }
 div.post img{
     width: 100%;
 }
-div.post .post-hearder div:first-child{
-    display: inline-block;
-    width: 80%;
-}
+/* div.post .post-header div:first-child{
+    width: 50%;
+} */
 
-div.post .post-hearder div:last-child{
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-    text-align: right;
+div.post .post-header div:last-child{
+    /* width: 20%; */
+    padding: 5px;
+    /* text-align: right; */
     color: gray;
 }
 
@@ -36,4 +38,12 @@ div.post h2, div.post p{
 div.container{
     width: 600px;
     height: auto;
+}
+.title{
+    font-size: 20px;
+    
+}
+.date{
+    display: flex;
+    justify-content: flex-end;
 }
